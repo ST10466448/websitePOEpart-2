@@ -30,4 +30,10 @@ Winter, D.2025. How to start an Online Bookstore. https://www.shopify.com/za/blo
 
 GISUSER.2022. 6 Advantages of an online Bookstore. https://gisuser.com/2022/12/6-advantages-of-opening-an-online-bookstore/ [17 August 2025]
 
+Mobile phone screenshot (<img width="640" height="4772" alt="_C__Users_RC_Student_Lab_Documents_websitepoe_index html" src="https://github.com/user-attachments/assets/899fbd0f-3813-4748-a8fa-81523a839a0e" />
+Tablet screenshot (<img width="1536" height="4362" alt="_C__Users_RC_Student_Lab_Documents_websitepoe_index html (4)" src="https://github.com/user-attachments/assets/c83af2eb-a495-4152-9c50-3728822fc42c" />
+Laptop screenshot(<img width="1203" height="1130" alt="_C__Users_RC_Student_Lab_Documents_websitepoe_index html (2)" src="https://github.com/user-attachments/assets/2c6101ca-a05a-4acf-9055-646eb02d0e29" />
+
+
+
 Online Bookstore Business Plan Example. https://www.modeliks.com/industries/e-commerce/online-bookstore-business-plan-example. [18 August 2025].
