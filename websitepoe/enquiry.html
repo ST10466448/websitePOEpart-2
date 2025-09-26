@@ -8,11 +8,11 @@
 </head>
 <body>
   <header>
-    <h1>Enquiry</h1>
+    <h1>Book Haven</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About Us</a>
-      <a href="services.html">Catalogue</a>
+      <a href="catalogue.html">Catalogue</a>
       <a href="enquiry.html" class="active">Enquiry</a>
       <a href="contact.html">Contact</a>
       <a href="checkout.html">Checkout</a>
@@ -20,31 +20,50 @@
   </header>
 
   <main>
-    <h2>Have a Question?</h2>
-    <p>If you have any questions about our books or services, fill out the form below and we’ll get back to you shortly.</p>
-    <form>
-      <label for="name">Name:</label><br>
-      <input type="text" id="name" name="name" required><br><br>
+    <section class="enquiry">
+      <h2>Submit an Enquiry</h2>
+      <p>Please use the form below for specific requests about books, bulk orders, or events.</p>
 
-      <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email" required><br><br>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
 
-      <label for="enquiry">Enquiry:</label><br>
-      <textarea id="enquiry" name="enquiry" rows="5" required></textarea><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
 
-      <button type="submit">Submit Enquiry</button>
-    </form>
+        <label for="phone">Phone (optional):</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="enquiry-type">Type of Enquiry:</label>
+        <select id="enquiry-type" name="enquiry-type" required>
+          <option value="">-- Select --</option>
+          <option value="book">Book Availability</option>
+          <option value="bulk">Bulk Order</option>
+          <option value="event">Event</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label for="book">Book Title / Reference (if applicable):</label>
+        <input type="text" id="book" name="book">
+
+        <label>Preferred Response Method:</label>
+        <div class="radio-group">
+          <input type="radio" id="email-response" name="response-method" value="email" checked>
+          <label for="email-response">Email</label>
+          <input type="radio" id="phone-response" name="response-method" value="phone">
+          <label for="phone-response">Phone</label>
+        </div>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Submit Enquiry</button>
+      </form>
+    </section>
   </main>
 
   <footer>
-    <p>&copy; 2024 Book Haven. All rights reserved.</p>
-    <nav>
-      <a href="about.html">About Us</a> | 
-      <a href="services.html">Catalogue</a> | 
-      <a href="enquiry.html">Enquiry</a> | 
-      <a href="contact.html">Contact</a> | 
-      <a href="checkout.html">Checkout</a>
-    </nav>
+    <p>&copy; 2025 Book Haven. All rights reserved.</p>
   </footer>
 </body>
 </html>
